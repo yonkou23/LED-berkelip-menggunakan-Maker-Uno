@@ -1,0 +1,12 @@
+void setup() {
+  // Memulakan(initialize) digital pin LED_BUILTIN sebagai output
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// Function loop ini menjadikan proses didalamnya berlaku sampai bila-bila
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // LED akan menyala ketika berada    dalam keadan HIGH voltage level
+  delay(1000);                       // Tunggu untuk satu saat
+  digitalWrite(LED_BUILTIN, LOW);    // LED akan terpadam ketika berada    dalam keadaan LOW voltage level
+  delay(1000);                       // Tunggu untuk satu saat
+}
